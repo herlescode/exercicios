@@ -1,0 +1,167 @@
+body {
+    background: #F2F5F7;
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+.container {
+    width: 94%;
+    margin: 0 auto;
+}
+.cabecalhoPrincipal {
+    background: #fff;
+    padding: 20px 0;
+}
+.cabecalhoPrincipal-titulo {
+    font-weight: bold;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.cabecalhoPrincipal-titulo a {
+    text-decoration: none;
+    color: rgb(24, 23, 23);
+}
+.cabecalhoPrincipal-nav-link {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background: #fff;
+    color: #9799A6;
+    border: 1px solid #9799A6;
+    border-radius: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .5s;
+    display: block;
+}
+/*------------------------------Conteudo Principal (main)------------------------------------*/
+.conteudoPrincipal {
+    margin: 20px 0 20px;
+}
+.subtitulo {
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.conteudoPrincipal-cursos-link {
+    height: 100px;
+    background: #FFF;
+    text-align: center;
+    margin: 15px;
+    transition: .2s;
+    box-shadow: 1px 1px 1px #CCC;
+    position: relative;
+}
+.conteudoPrincipal-cursos-link a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    display: block;
+}
+.conteudoPrincipal-cursos-link:hover {
+    box-shadow: 4px 4px 4px #CCC;
+}
+.conteudoPrincipal-cursos-link a:before {
+    content: '';
+    width: 20%;
+    height: 50%;
+    margin: 10px auto;
+    display: block;
+}
+.conteudoPrincipal-cursos-link:nth-child(even) a:before {
+    background: url(../Img/html5.svg) no-repeat;
+}
+
+.conteudoPrincipal-cursos-link:nth-child(odd) a:before {
+    background: url(../Img/php.svg) no-repeat;
+   
+}
+
+/*------------------------------rodapé da pagina de cursos (footer)-------------------------*/
+.rodapePrincipal {
+    background: #324c64;
+    padding: 20px;
+}
+.rodapePrincipal .subtitulo {
+    color: #FFF;
+    font-weight: bold;
+    font-size: 2em;
+    
+}
+.rodapePrincipal-navMap-link {
+    text-decoration: none;
+    color: #FFF;
+    margin-top: 10px;
+    font-size: .9em;
+}
+.navmap-list-title {
+    font-size: 1.3em;
+    font-weight: 700;
+    margin: .9em 0;
+    padding-left: .3em;
+    padding-top: .2em;
+    padding-bottom: .2em;
+}
+.navmap-list-title .rodapePrincipal-navMap-link {
+    margin-top: 0;
+}
+.navmap-list-title-frontend {
+    color: #AD85BF; 
+    border-left: 4px solid #AD85BF;
+}
+.navmap-list-title-backend {
+    color: #c1ee1f;
+    border-left: 4px solid #c1ee1f;
+}
+.navmap-list-title-bancodedados {
+    color: #25D285;
+    border-left: 4px solid ;
+}
+.rodapePrincipal-patrocinadores-list img {
+    width: 75px;
+    height: 35px;
+}
+.rodapePrincipal-patrocinadores {
+    background-color: #F2F5F7;
+    margin-top: 30px;
+    padding: 20px 0;
+}
+.rodapePrincipal-contatoForm {
+    margin-top: 18px;
+}
+.rodapePrincipal-contatoForm-legend {
+    font-weight: bold;
+    font-size: 14px;
+    color: #000;
+    margin-bottom: 5px;
+    display: block;
+}
+.rodapePrincipal-contatoForm-email {
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	padding: 10px;
+}
+.rodapePrincipal-contatoForm-submit {
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	background-color: #4DBA7A;
+	color: #FFF;
+	cursor: pointer;	
+}
+.rodapePrincipal-contatoForm-submit,
+.rodapePrincipal-contatoForm-email {
+	border: 1px solid #4DBA7A;
+	box-sizing: border-box;
+	font-size: 16px;
+}
+.rodapePrincipal-contatoForm-legend {
+	margin-bottom: 10px;
+}
+
+
+
+

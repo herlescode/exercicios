@@ -1,0 +1,70 @@
+.cabecalhoPrincipal .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cabecalhoPrincipal-nav {
+    display: flex;    
+}
+/*-------------------------------main----------------------------------------*/
+.conteudoPrincipal-cursos {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.conteudoPrincipal-cursos-link {
+    width: 20%;
+    
+}
+/* ------------------------------rodape--------------------------------------*/ 
+.rodapePrincipal-patrocinadores .container {
+    display: flex;
+    justify-content: space-between;  
+}
+.rodapePrincipal-patrocinadores-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 70%;
+    margin-right: 5%;
+}
+.rodapePrincipal-contatoForm {
+    width: 25%;
+}
+.rodapePrincipal-contatoForm-fieldset {
+    display: flex;
+}
+.rodapePrincipal-navMap-list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 250px;
+}
+/* Trabalhar a parte mobile*/
+@media (max-width: 400px)  {
+    .cabecalhoPrincipal-nav-link {
+        border-bottom: 1px solid #9799A6;
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+        border-radius: 0;
+    }
+    .cabecalhoPrincipal-nav {
+        flex-direction: column;
+    }
+    .cabecalhoPrincipal .container {
+        flex-direction: column;
+        align-items: initial; /*quando muda o flex-direction ter muito cuidado pq muda tmb o eixo virificar na documentação do msdn*/
+        text-align: center;
+    }
+    .conteudoPrincipal-cursos {
+        flex-direction: column;   
+    }
+    conteudoPrincipal-cursos-link {
+        width: 100%;
+        margin: 1px;
+    }
+
+}
+
+

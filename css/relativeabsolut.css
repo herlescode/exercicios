@@ -1,0 +1,58 @@
+body {
+    position: 0;
+    margin: 0;
+}
+.container {
+    margin-top: 200px;
+    margin-left: 400px;
+    background-color: #bfbfbf;
+    height: 200px;
+    width: 400px;
+    position: relative;
+}
+.caixa {
+    display: grid;
+    place-items: center;
+    
+}
+.box-one1 {
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 5%;
+    top: 10%;
+    opacity: 0.6;
+    z-index: 1; /* nesse caso eu irei colocar o elemento acima de qualqeur outro e caso eu quera que ele esteja em cima de todos é aumenter o valor  */
+    
+}
+.box-one {
+    background-color: aquamarine;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+.box-one2 {
+    background-color: rgb(248, 204, 8);
+    width: 100px;
+    height: 100px;
+    color: black;
+    opacity: .9;
+    z-index: 2;
+    position: absolute; /* é como se ele não tivesse no mesmo fluxo */
+    left: 10%;
+    top: 20%;
+    /*
+    margin-top: -50px;
+    margin-left: -50px; modo antigo e nesse caso eu preciso saber width e height
+    transform: translate(-50%, -50%); é usado quando eu não sei o tamanho do elemento e quero posiciona-lo no meio da tela no centro da página
+    display: flex;
+    align-items: center;
+    justify-content: center; */
+    
+}
+p {
+    position: absolute;
+    z-index: 3;
+    margin-left: 130px;
+}

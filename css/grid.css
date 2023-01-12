@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: sans-serif;
+}
+/* .item:nth-child(even) {background-color: #C5C5;}  pinta todas as linhas pares */
+
+.container {
+    /* margin: 15px; */
+    /* padding: 5px; */
+    /* border: 3px solid #964848; */
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(4, 100px);
+    justify-content: center;
+    align-items: center; /*alinho os itens */
+    align-content: center; /*alinho as grids*/ 
+    gap: 5px;
+    background-color: aquamarine;
+
+    /* grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); */
+    /* grid-template-columns: repeat(3, minmax(200px, 1fr) );posso usar repeat(3, 1fr) multiplico as colunas */
+    /* grid-template-columns: minmax(0, 1fr) minmax(200px, 2fr); */
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    /* grid-template-rows: auto 100px auto 150px; */
+    /* row-gap: 5px; 
+    column-gap: 10px; 
+    grid-gap: 5px 10px;*/
+    /* grid-template-areas:  vou trabalhar a área que será ocupada 
+    "i1 i1"
+    "i2 i3"
+    "i4 i3"
+    ;
+    height:100vh;
+    width: 100vw;
+    grid-template-columns: 1fr 400px; as areas do grid-template-area serão definidas aqui
+    grid-template-rows: 80px 1fr 90px; */
+    height:100vh;
+    width: 100vw;
+}
+.item {
+    background: #f3a9a9;
+    /* margin: 5px; */
+    /* border: 1px solid #201f1f; */
+}
+.item-1 {
+    /* grid-area: i1; para criar áreas de templates conforme no container grid-template-area */
+    background-color: aqua; 
+    align-self: center ;
+    justify-self: start;
+}
+/*.item-2 {
+    grid-area: i2;
+    background-color: blue;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 5; */
+    /* grid-row: 1 / 5; */
+    /*grid-row: 1 / span 4; mesmo que os anteriores*/
+} 
+/* .item-3 {
+    background-color: rgb(124, 95, 95);
+    grid-area: i3; */
+}
+/* .item-4{
+    background-color: crimson;
+    grid-area: i4;
+} */
+

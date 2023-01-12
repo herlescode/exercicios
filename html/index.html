@@ -4,9 +4,105 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Dashboard de Cursos</title>
+    <link rel="stylesheet" href="../Css/reset.css">
+    <link rel="stylesheet" href="../Css/style.css">
+    <link rel="stylesheet" href="../Css/flexbox.css">
 </head>
 <body>
-    
+    <header class="cabecalhoPrincipal">
+        <div class="container">
+            <h1 class="cabecalhoPrincipal-titulo">
+                <a href="#"> Escola de Cursos</a>
+            </h1>
+            <nav class="cabecalhoPrincipal-nav">
+                <a href="#" class="cabecalhoPrincipal-nav-link">Home</a>
+                <a href="#" class="cabecalhoPrincipal-nav-link">Cursos</a>
+                <a href="#" class="cabecalhoPrincipal-nav-link">Sobre nós</a>
+                <a href="#" class="cabecalhoPrincipal-nav-link">Contato</a>
+                <a href="#" class="cabecalhoPrincipal-nav-link">Nosso APP</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="conteudoPrincipal">
+        <div class="container">
+            <h2 class="subtitulo">Nossos cursos</h2>
+
+            <nav>
+                <ul class="conteudoPrincipal-cursos">
+                    <li class="conteudoPrincipal-cursos-link"><a href="#">Css3</a></li>
+                    <li class="conteudoPrincipal-cursos-link"><a href="#">Html5</a></li>
+                    <li class="conteudoPrincipal-cursos-link"><a href="#">JavaScript</a></li>
+                    <li class="conteudoPrincipal-cursos-link"><a href="#">Flexbox</a></li>
+                    <li class="conteudoPrincipal-cursos-link"><a href="#">Grid</a></li>
+                    <li class="conteudoPrincipal-cursos-link"><a href="#">Php</a></li>
+                    <li class="conteudoPrincipal-cursos-link"><a href="#">Java</a></li>
+                    <li class="conteudoPrincipal-cursos-link"><a href="#">JavaScript</a></li>
+                    <li class="conteudoPrincipal-cursos-link"><a href="#">Pyton</a></li>
+                    <li class="conteudoPrincipal-cursos-link"><a href="#">Mysql</a></li>
+                    <li class="conteudoPrincipal-cursos-link"><a href="#">MariaDB</a></li>
+                    <li class="conteudoPrincipal-cursos-link"><a href="#">Oracle</a></li>
+                    <li class="conteudoPrincipal-cursos-link"><a href="#">MariaDB</a></li>
+                    <li class="conteudoPrincipal-cursos-link"><a href="#">Oracle</a></li>
+                    <li class="conteudoPrincipal-cursos-link"><a href="#">Pyton</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </main>
+
+    <footer class="rodapePrincipal">
+
+        <div class="container">
+            <section class="rodapePrincipal-navMap">
+                <h3 class="subtitulo">Todos os nossos Cursos </h3>
+                <nav class="rodapePrincipal-navMap-list">
+                    
+                    <h4 class="navmap-list-title navmap-list-title-frontend">Linguagens Frontend</h4>
+                    <a href="#" class="rodapePrincipal-navMap-link">Css3</a>
+                    <a href="#" class="rodapePrincipal-navMap-link">Html5</a>
+                    <a href="#" class="rodapePrincipal-navMap-link">JavaScript</a>
+                    <a href="#" class="rodapePrincipal-navMap-link">Fexbox</a>
+                    <a href="#" class="rodapePrincipal-navMap-link">Grid</a>
+
+                    <h4 class="navmap-list-title navmap-list-title-backend">Linguagens Backend</h4>
+                    <a href="#" class="rodapePrincipal-navMap-link">Php</a>
+                    <a href="#" class="rodapePrincipal-navMap-link">Java</a>
+                    <a href="#" class="rodapePrincipal-navMap-link">JavaScript</a>
+                    <a href="#" class="rodapePrincipal-navMap-link">Pyton</a>
+                    
+                    <h4 class="navmap-list-title navmap-list-title-bancodedados">Banco de dados</h4>
+                    <a href="#" class="rodapePrincipal-navMap-link">MySql</a>
+                    <a href="#" class="rodapePrincipal-navMap-link">MariaDB</a>
+                    <a href="#" class="rodapePrincipal-navMap-link">Oracle</a>
+
+                </nav>
+            </section>
+        </div>
+
+        <section class="rodapePrincipal-patrocinadores">
+            <div class="container">
+
+                <ul class="rodapePrincipal-patrocinadores-list">
+                    <li><a href="#" class="rodapePrincipal-patrocinadores-list-link patrocinadores-list-link-alura"><img src="../Img/youtube.svg" alt="logo do youtube" class="svg"></a></li>
+                    <li><a href="#" class="rodapePrincipal-patrocinadores-list-link patrocinadores-list-link-alura"><img src="../Img/timedetrabalho.svg" alt="logo da apple" class="svg1"></a></li>
+                    <li><a href="#" class="rodapePrincipal-patrocinadores-list-link patrocinadores-list-link-alura"><img src="../Img/youtube.svg" alt="logo da empresa time de trabalho" class="svg2"></a></li>
+                </ul>
+
+                <form action="#" class="rodapePrincipal-contatoForm">
+                    <fieldset>
+                        <legend class="rodapePrincipal-contatoForm-legend" for="email-contato">Entre em contato conosco</legend>
+                        <div class="rodapePrincipal-contatoForm-fieldset">
+                            <input type="email" class="rodapePrincipal-contatoForm-email"  type="email" name="email-contato" id="email-contato">
+                            <button class="rodapePrincipal-contatoForm-submit" type="submit">Enviar</button>
+                        </div>
+                    </fieldset>
+                </form>
+                
+            </div>
+        </section>
+
+    </footer>
 </body>
 </html>
