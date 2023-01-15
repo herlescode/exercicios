@@ -86,19 +86,24 @@
 //     console.log('valor verdadeiro')
 // }
 
-var nome = 'Andre';
-var idade = 28;
-var possuiDoutorado = false;
-var empregoFuturo;
-var dinheiroNaConta = 0;
+var expressoes = (5 - 1) && (5 - '') && (5 - 2)
 
-if (nome == Andre) && (idade == 28){
-    console.log ('verdade');
-} else {
-    console.log ('False');
-}
+console.log(expressoes);
 
-var brasil = 207;
-var china = 1340;
+
+// var nome = 'Andre';
+// var idade = 28;
+// var possuiDoutorado = false;
+// var empregoFuturo;
+// var dinheiroNaConta = 0;
+
+// if (nome == Andre) && (idade == 28){
+//     console.log ('verdade');
+// } else {
+//     console.log ('False');
+// }
+
+// var brasil = 207;
+// var china = 1340;
 
 
